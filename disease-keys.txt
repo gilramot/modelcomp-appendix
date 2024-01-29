@@ -1,0 +1,9 @@
+0 - Control group, subjects exempt from CAD, T2D or MS 
+1 - Subjects with MS (Metabolic syndrome) without T2D (Type 2 Diabetes) or CAD (Coronary Artery Disease)
+2a - Subjects with severe obesity without diabetes or CAD
+2b - Subjects eligible for bariatric surgery
+3 - Subject with T2D without CAD
+4 - Subjects with a first acute CAD event
+5 - Subjects suffering from chronic CAD without heart failure (left ventricular ejection fraction ≥45)
+6 - Subjects suffering from chronic CAD with heart failure (left ventricular ejection fraction <45)
+7 - Subjects with non-CAD related heart failure 
