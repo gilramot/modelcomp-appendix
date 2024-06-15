@@ -53,7 +53,7 @@ if __name__ == "__main__":
     # setup list of diseases in data
     abundance = mc.remove_string_columns(abundance)
     X, y = abundance.to_numpy(), meta.drop("SampleID", axis=1).to_numpy().ravel()
-    #mc.cross_val_models(
+    # mc.cross_val_models(
     #    list(mc.get_models(seed_dict=seeds)),
     #    mc.get_k_fold(),
     #    X,
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     #    positive_uniques,
     #    abundance.columns,
     #    explain=False
-    #)
+    # )
     # validation - train & test on all diseases
     print(f"Completed validation {validation_count} of 65")
     validation_count += 1
@@ -79,7 +79,7 @@ if __name__ == "__main__":
             y,
             test_disease,
             abundance.columns,
-            explain=False
+            explain=False,
         )
         # validation - train & test on the same disease
         print(f"Completed validation {validation_count} of 65")
@@ -120,7 +120,7 @@ if __name__ == "__main__":
                 test_disease,
                 train_disease,
                 abundance.columns,
-                explain=False
+                explain=False,
             )
             print(f"Completed validation {validation_count} of 65")
             validation_count = validation_count + 1
